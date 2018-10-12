@@ -1,0 +1,25 @@
+{% extends 'rango/base.html' %}
+{% load staticfiles %} <!--tell templates the staticfile will be used -->
+
+
+{% block body_block %}
+        <h2>又要给何屁鸡的小窝添加东西了嘛@@ 你真好@~@</h2>
+        <div>
+            <form id="Page_form" method="post" action="/rango/category/{{category.slug}}/add_page/" enctype="multipart/form-data">
+                {% csrf_token %}
+                {% if category %}
+                {% for hidden in form.hidden_fields %}
+                    {{hidden}}
+                {% endfor %}
+                {% for field in form.visible_fields %}
+                <p> {{ field.errors }}</p>
+                <p> {{ field.help_text }}</p>
+                <p>{{ field }}</p>
+                {% endfor %}
+                {% else %}
+            <strong>A category by this name does not exist.</strong>
+                {% endif %}
+                <input type="submit" name="submit" value="Create Page" />
+            </form>
+        </div><br />
+{% endblock %}

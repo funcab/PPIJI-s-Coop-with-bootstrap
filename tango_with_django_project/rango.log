@@ -1,0 +1,528 @@
+nohup: ignoring input
+[06/Oct/2018 13:39:17] "GET /rango/page/test_008/ HTTP/1.1" 200 2887
+[06/Oct/2018 13:39:17] "GET /static/css/base.css HTTP/1.1" 404 1653
+[06/Oct/2018 13:39:17] "GET /static/js/jquery.js HTTP/1.1" 404 1653
+[06/Oct/2018 13:39:29] "GET /rango/page/test_008/ HTTP/1.1" 200 2887
+[06/Oct/2018 13:39:29] "GET /static/css/base.css HTTP/1.1" 404 1653
+[06/Oct/2018 13:39:29] "GET /static/js/jquery.js HTTP/1.1" 404 1653
+[06/Oct/2018 13:39:32] "GET /rango/ HTTP/1.1" 200 4133
+[06/Oct/2018 13:39:32] "GET /static/css/base.css HTTP/1.1" 404 1653
+[06/Oct/2018 13:39:32] "GET /static/js/jquery.js HTTP/1.1" 404 1653
+[06/Oct/2018 15:54:11] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+[06/Oct/2018 15:54:11] 
+Not Found: /http:/112.124.42.80:63435/
+[06/Oct/2018 16:51:37] "HEAD http://112.124.42.80:63435/ HTTP/1.1" 404 0
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[06/Oct/2018 20:12:21] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /status
+[06/Oct/2018 23:38:36] "GET /status HTTP/1.1" 404 2715
+[07/Oct/2018 01:28:14] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+[07/Oct/2018 01:28:14] 
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Oct/2018 04:56:09] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Oct/2018 06:18:13] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[07/Oct/2018 09:52:46] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+[07/Oct/2018 09:52:46] 
+[07/Oct/2018 10:25:53] "GET / HTTP/1.1" 200 3950
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[07/Oct/2018 16:26:22] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1729
+[07/Oct/2018 21:13:46] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00+&\xe0\x00\x00\x00\x00\x00Cookie:')
+[07/Oct/2018 21:13:46] 
+[08/Oct/2018 02:04:40] "GET /rango/ HTTP/1.1" 200 4133
+[08/Oct/2018 02:04:40] "GET /static/css/base.css HTTP/1.1" 404 1653
+[08/Oct/2018 02:04:40] "GET /static/js/jquery.js HTTP/1.1" 404 1653
+[08/Oct/2018 02:04:41] "GET /static/images/chick.jpg HTTP/1.1" 304 0
+Internal Server Error: /rango/category/django_notebook/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/hexuanshishabi/tango_with_django_project/rango/views.py", line 65, in show_category
+    return render(request, 'rango/category.html', context_dict)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'show_page' with arguments '(u'',)' and keyword arguments '{}' not found. 1 pattern(s) tried: [u'rango/page/(?P<page_name_slug>[\\w-]+)/$']
+[08/Oct/2018 02:04:49] "GET /rango/category/django_notebook/ HTTP/1.1" 500 206255
+[08/Oct/2018 02:05:04] "GET /rango/category/python/ HTTP/1.1" 200 3138
+[08/Oct/2018 02:05:04] "GET /static/css/base.css HTTP/1.1" 404 1653
+[08/Oct/2018 02:05:04] "GET /static/js/jquery.js HTTP/1.1" 404 1653
+[08/Oct/2018 02:05:07] "GET /rango/page/test_008/ HTTP/1.1" 200 2887
+[08/Oct/2018 02:05:07] "GET /static/css/base.css HTTP/1.1" 404 1653
+[08/Oct/2018 02:05:07] "GET /static/js/jquery.js HTTP/1.1" 404 1653
+Internal Server Error: /rango/category/django_notebook/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/hexuanshishabi/tango_with_django_project/rango/views.py", line 65, in show_category
+    return render(request, 'rango/category.html', context_dict)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'show_page' with arguments '(u'',)' and keyword arguments '{}' not found. 1 pattern(s) tried: [u'rango/page/(?P<page_name_slug>[\\w-]+)/$']
+[08/Oct/2018 02:05:12] "GET /rango/category/django_notebook/ HTTP/1.1" 500 206255
+[08/Oct/2018 02:05:27] "GET /rango/page/flask/ HTTP/1.1" 200 2786
+[08/Oct/2018 02:05:27] "GET /static/css/base.css HTTP/1.1" 404 1653
+[08/Oct/2018 02:05:27] "GET /static/js/jquery.js HTTP/1.1" 404 1653
+Internal Server Error: /rango/category/django_notebook/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/hexuanshishabi/tango_with_django_project/rango/views.py", line 65, in show_category
+    return render(request, 'rango/category.html', context_dict)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'show_page' with arguments '(u'',)' and keyword arguments '{}' not found. 1 pattern(s) tried: [u'rango/page/(?P<page_name_slug>[\\w-]+)/$']
+[08/Oct/2018 02:05:34] "GET /rango/category/django_notebook/ HTTP/1.1" 500 206255
+[08/Oct/2018 02:05:37] "GET /rango/category/other-frameworks/ HTTP/1.1" 200 2872
+[08/Oct/2018 02:05:37] "GET /static/js/jquery.js HTTP/1.1" 404 1653
+[08/Oct/2018 02:05:37] "GET /static/css/base.css HTTP/1.1" 404 1653
+[08/Oct/2018 02:05:40] "GET /rango/page/bottle/ HTTP/1.1" 200 2794
+[08/Oct/2018 02:05:40] "GET /static/css/base.css HTTP/1.1" 404 1653
+[08/Oct/2018 02:05:40] "GET /static/js/jquery.js HTTP/1.1" 404 1653
+Internal Server Error: /rango/category/swift/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/hexuanshishabi/tango_with_django_project/rango/views.py", line 65, in show_category
+    return render(request, 'rango/category.html', context_dict)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'show_page' with arguments '(u'',)' and keyword arguments '{}' not found. 1 pattern(s) tried: [u'rango/page/(?P<page_name_slug>[\\w-]+)/$']
+[08/Oct/2018 02:05:44] "GET /rango/category/swift/ HTTP/1.1" 500 201374
+[08/Oct/2018 02:06:11] "GET /rango/page/learn-python-in-0-minutes/ HTTP/1.1" 200 2829
+[08/Oct/2018 02:06:11] "GET /static/css/base.css HTTP/1.1" 404 1653
+[08/Oct/2018 02:06:11] "GET /static/js/jquery.js HTTP/1.1" 404 1653
+Internal Server Error: /rango/category/swift/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/hexuanshishabi/tango_with_django_project/rango/views.py", line 65, in show_category
+    return render(request, 'rango/category.html', context_dict)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'show_page' with arguments '(u'',)' and keyword arguments '{}' not found. 1 pattern(s) tried: [u'rango/page/(?P<page_name_slug>[\\w-]+)/$']
+[08/Oct/2018 02:06:16] "GET /rango/category/swift/ HTTP/1.1" 500 201374
+[08/Oct/2018 02:06:38] "GET /rango/add_category/ HTTP/1.1" 200 3369
+[08/Oct/2018 02:06:38] "GET /static/css/base.css HTTP/1.1" 404 1653
+[08/Oct/2018 02:06:38] "GET /static/js/jquery.js HTTP/1.1" 404 1653
+Internal Server Error: /rango/category/django_notebook/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/hexuanshishabi/tango_with_django_project/rango/views.py", line 65, in show_category
+    return render(request, 'rango/category.html', context_dict)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'show_page' with arguments '(u'',)' and keyword arguments '{}' not found. 1 pattern(s) tried: [u'rango/page/(?P<page_name_slug>[\\w-]+)/$']
+[08/Oct/2018 02:06:47] "GET /rango/category/django_notebook/ HTTP/1.1" 500 206255
+[08/Oct/2018 02:06:50] "GET /rango/category/python/ HTTP/1.1" 200 3138
+[08/Oct/2018 02:06:50] "GET /static/css/base.css HTTP/1.1" 404 1653
+[08/Oct/2018 02:06:50] "GET /static/js/jquery.js HTTP/1.1" 404 1653
+[08/Oct/2018 02:06:51] "GET /rango/page/test_008/ HTTP/1.1" 200 2887
+[08/Oct/2018 02:06:51] "GET /static/css/base.css HTTP/1.1" 404 1653
+[08/Oct/2018 02:06:51] "GET /static/js/jquery.js HTTP/1.1" 404 1653
+Internal Server Error: /rango/category/django_notebook/
+Traceback (most recent call last):
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/hexuanshishabi/tango_with_django_project/rango/views.py", line 65, in show_category
+    return render(request, 'rango/category.html', context_dict)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader.py", line 97, in render_to_string
+    return template.render(context, request)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/backends/django.py", line 95, in render
+    return self.template.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 206, in render
+    return self._render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 173, in render
+    return compiled_parent._render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 197, in _render
+    return self.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/loader_tags.py", line 69, in render
+    result = block.nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 326, in render
+    return nodelist.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 992, in render
+    bit = node.render_annotated(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 220, in render
+    nodelist.append(node.render_annotated(context))
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/base.py", line 959, in render_annotated
+    return self.render(context)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 513, in render
+    six.reraise(*exc_info)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/template/defaulttags.py", line 499, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 600, in reverse
+    return force_text(iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs)))
+  File "/root/.virtualenvs/rango/local/lib/python2.7/site-packages/django/core/urlresolvers.py", line 508, in _reverse_with_prefix
+    (lookup_view_s, args, kwargs, len(patterns), patterns))
+NoReverseMatch: Reverse for 'show_page' with arguments '(u'',)' and keyword arguments '{}' not found. 1 pattern(s) tried: [u'rango/page/(?P<page_name_slug>[\\w-]+)/$']
+[08/Oct/2018 02:07:10] "GET /rango/category/django_notebook/ HTTP/1.1" 500 206255
+[08/Oct/2018 02:07:28] "GET /admin/ HTTP/1.1" 200 7813
+[08/Oct/2018 02:07:28] "GET /static/admin/css/base.css HTTP/1.1" 200 15897
+[08/Oct/2018 02:07:28] "GET /static/admin/css/dashboard.css HTTP/1.1" 200 434
+[08/Oct/2018 02:07:29] "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+[08/Oct/2018 02:07:29] "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 200 331
+[08/Oct/2018 02:07:29] "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+[08/Oct/2018 02:07:29] "GET /static/admin/img/icon-deletelink.svg HTTP/1.1" 200 392
+[08/Oct/2018 02:07:29] "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+[08/Oct/2018 02:07:29] "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+[08/Oct/2018 02:07:29] "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+[08/Oct/2018 02:07:31] "GET /admin/rango/page/ HTTP/1.1" 200 9677
+[08/Oct/2018 02:07:32] "GET /static/admin/css/changelists.css HTTP/1.1" 200 6100
+[08/Oct/2018 02:07:32] "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 363
+[08/Oct/2018 02:07:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Oct/2018 02:07:32] "GET /static/admin/js/core.js HTTP/1.1" 304 0
+[08/Oct/2018 02:07:32] "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 304 0
+[08/Oct/2018 02:07:32] "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 304 0
+[08/Oct/2018 02:07:32] "GET /static/admin/js/actions.js HTTP/1.1" 304 0
+[08/Oct/2018 02:07:32] "GET /static/admin/js/urlify.js HTTP/1.1" 304 0
+[08/Oct/2018 02:07:32] "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+[08/Oct/2018 02:07:32] "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+[08/Oct/2018 02:07:32] "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 200 331
+[08/Oct/2018 02:07:35] "GET /admin/rango/page/14/change/ HTTP/1.1" 200 8259
+[08/Oct/2018 02:07:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Oct/2018 02:07:35] "GET /static/admin/css/forms.css HTTP/1.1" 200 7750
+[08/Oct/2018 02:07:35] "GET /static/admin/css/widgets.css HTTP/1.1" 200 10340
+[08/Oct/2018 02:07:50] "GET /admin/rango/page/14/change/ HTTP/1.1" 200 8259
+[08/Oct/2018 02:07:50] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Oct/2018 02:07:54] "GET /admin/rango/page/ HTTP/1.1" 200 9677
+[08/Oct/2018 02:07:56] "GET /admin/rango/page/11/change/ HTTP/1.1" 200 8341
+[08/Oct/2018 02:07:57] "GET /admin/jsi18n/ HTTP/1.1" 200 3217
+[08/Oct/2018 02:08:01] "GET /admin/rango/page/ HTTP/1.1" 200 9677

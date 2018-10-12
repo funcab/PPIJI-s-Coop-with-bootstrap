@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+{% load rango_template_tags %}
+
+<!--<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>-->
+
+
+
+
+<html>
+    <head>
+        <title>
+            何屁鸡的小窝
+        {% block title_block %}
+            欢迎光临！
+            {% endblock %}
+        </title>
+    </head>
+<script src="{% static 'js/jquery-3.3.1.slim.min.js' %}"></script>
+<script src="{% static 'js/rango-ajax.js' %}"></script>
+<script src="{% static 'js/rango-jquery.js' %}"></script>
+    <body>
+
+    <div class="text" style=" text-align:center;"> <h1>Hi! We are PiPiJi's Coop! :))</h1></div>
+    <HR style="border:3 double #987cb9" width="80%" color=#987cb9 SIZE=3>
+
+        <div>
+            {% block body_block %}
+            {% endblock %}
+        </div>
+        <strong>Other Categories:</strong>
+        <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=1)" width="80%" color=#987cb9 SIZE=3>
+        <div>
+
+            {% block sidebar_block %}
+                {% get_category_list category %}
+            {% endblock %}
+
+        </div>
+        <strong>Jump To:</strong>
+        <HR style="FILTER: alpha(opacity=100,finishopacity=0,style=1)" width="80%" color=#987cb9 SIZE=3>
+        <div>
+            <ul>
+                {% if user.is_authenticated %}
+                    <li><a href="{% url 'rango:restricted' %}">Restricted Page</a></li>
+                    <li><a href="{% url 'rango:add_category' %}">Add New Category</a></li>
+                    <li><a href="{% url 'auth_password_change' %}">Change Password</a></li>
+                    <li><a href="{% url 'rango:profile' user.username %}">Profile</a></li>
+                    <li><a href="{% url 'auth_logout' %}?next=/rango/">Logout</a></li>
+                    <li><a href="{% url 'rango:search' %}">Search</a></li>
+                {% else %}
+                    <li><a href="{% url 'auth_login' %}">Login</a></li>
+                    <li><a href="{% url 'registration_register' %}">Register Here</a></li>
+                {% endif %}
+
+                    <li><a href="{% url 'rango:about' %}">About</a></li>
+                    <li><a href="{% url 'rango:index' %}">Index</a></li>
+
+
+                <img src="{% static 'images/chick.jpg' %}"
+            alt="Picture of NaiPP" />
+            </ul>
+        </div>
+
+    </body>
+</html>

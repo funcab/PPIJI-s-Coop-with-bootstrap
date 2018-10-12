@@ -1,0 +1,21 @@
+{% extends 'rango/base.html' %}
+{% load staticfiles %} <!--tell templates the staticfile will be used -->
+
+
+{% block body_block %}
+        <h2>现在可以给何屁鸡的小窝添加东西啦@#@</h2>
+        <div>
+            <form id="category_form" method="post" action="/rango/add_category/">
+                {% csrf_token %}
+                {% for hidden in form.hidden_fields %}
+                    {{hidden}}
+                {% endfor %}
+                {% for field in form.visible_fields %}
+                <p>{{ field.errors }}</p>
+                <p>{{ field.help_text }}</p>
+                <p>{{ field }}</p>
+                {% endfor %}
+                <input type="submit" name="submit" value="Create Category" />
+            </form>
+        </div><br />
+{% endblock %}

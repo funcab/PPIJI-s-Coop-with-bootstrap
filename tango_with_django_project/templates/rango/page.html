@@ -1,0 +1,20 @@
+{% extends 'rango/base.html' %}
+{% load staticfiles %} <!--tell templates the staticfile will be used -->
+
+
+
+    {% block body_block %}
+        {% if pages %}
+        <h2>{{ pages.title }} </h2>
+        <p>Description: {{pages.txt}}</p>
+        <p>Views: {{pages.views}}</p>
+        <p>File: {{pages.file}}</p>
+        <p><a href="{{pages.url}}">🔗原文链接🔗</a></p>
+        {% if pages.file %}
+        <p><a href="http://106.14.174.96:8000/media/{{pages.file}}" type="button">Download File</a></p>
+        {% endif %}
+        {% else %}
+        <strong>No pages currently in category.</strong>
+        {% endif %}
+
+    {% endblock %}

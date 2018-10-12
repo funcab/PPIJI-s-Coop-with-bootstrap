@@ -1,0 +1,55 @@
+{% extends 'rango/base.html' %}
+{% load staticfiles %} <!--tell templates the staticfile will be used -->
+
+
+
+    {% block body_block %}
+    <div class="jumbotron">
+        <h1 class="display-3">何屁鸡说：
+            </h1>
+    {% if user.is_authenticated %}
+       <h3>Hi~ 屁鸡er_{{ user.username }}! This is your {{visits}} time(s) visit us!!</h3>
+    {% else %}
+        <h3>Hey there 屁鸡er! This is your {{visits}} time(s) visit us!!</h3>
+    {% endif %}
+    </div>
+
+
+    <div class="row marketing">
+        <div class="col-lg-6">
+        <h4> Most Liked Categories </h4>
+        <p>
+        {% if categories %}
+        <ul class="list-group">
+            {% for category in categories %}
+                <li class="list-group-item">
+                    <a href="{% url 'rango:show_category' category.slug %}">{{ category.name }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+        {% else %}
+            <strong>There are no categories present.</strong>
+        {% endif %}
+        </p>
+        </div>
+
+    <div class="col-lg-6">
+    <h4> Most Viewed Pages </h4>
+    <p>
+        {% if pages %}
+        <ul class="list-group">
+            {% for page in pages %}
+            <li class="list-group-item">
+                <a href="{% url 'rango:show_page' page.slug %}">{{page.title}}</a>
+            </li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <strong> There are no pages present </strong>
+        {% endif %}
+    </p>
+    </div>
+    </div>
+
+
+{% endblock %}
