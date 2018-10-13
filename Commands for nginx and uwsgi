@@ -13,6 +13,6 @@ nginx and uwsgi configuration
 run the whole project using uwsgi and nginx
 1. make sure every port is free to be used: sudo fuser -k 8000/tcp
 2. start nginx: nginx -c /etc/nginx/nginx.conf
-2.5 when you change the nginx.conf make sure you reload nginx: nginx -s reload
+2.5 after changing the nginx.conf make sure you reload nginx: nginx -s reload
 3. start uwsgi: uwsgi --http :8000 --xml socket.xml
 4. run: tail -f uwsgi.log
