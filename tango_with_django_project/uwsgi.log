@@ -1,0 +1,983 @@
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 16:08:53 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1e9fea0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1e9fea0 pid: 31896 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 31896, cores: 1)
+spawned uWSGI worker 2 (pid: 31898, cores: 1)
+spawned uWSGI worker 3 (pid: 31899, cores: 1)
+spawned uWSGI worker 4 (pid: 31900, cores: 1)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 16:18:59 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 16:21:53 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 16:23:49 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1ab7b30
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+Traceback (most recent call last):
+  File "./tango_with_django_project/__init__.py", line 1, in <module>
+    import pymysql
+ImportError: No module named 'pymysql'
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 31967, cores: 1)
+spawned uWSGI worker 2 (pid: 31968, cores: 1)
+spawned uWSGI worker 3 (pid: 31969, cores: 1)
+spawned uWSGI worker 4 (pid: 31970, cores: 1)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 16:28:06 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 31981)
+uwsgi socket 0 bound to TCP address 127.0.0.1:39675 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1080430
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1080430 pid: 31980 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 31980, cores: 1)
+spawned uWSGI worker 2 (pid: 31983, cores: 1)
+spawned uWSGI worker 3 (pid: 31984, cores: 1)
+spawned uWSGI worker 4 (pid: 31985, cores: 1)
+[<Page: Official Python Tutorial>, <Page: Learn Python in 0 Minutes>, <Page: Django Rocks>, <Page: How to Tango with Django>, <Page: modelname.objects.get()/.filter()>]
+[pid: 31980|app: 0|req: 1/1] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 08:28:19 2018] GET /rango/ => generated 6197 bytes in 77 msecs (HTTP/1.1 200) 4 headers in 177 bytes (1 switches on core 0)
+[pid: 31983|app: 0|req: 1/2] 118.123.52.109 () {40 vars in 795 bytes} [Sat Oct 13 08:28:24 2018] GET /rango/category/python/ => generated 4596 bytes in 88 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 31985|app: 0|req: 1/3] 118.123.52.109 () {40 vars in 839 bytes} [Sat Oct 13 08:28:26 2018] GET /rango/page/official-python-tutorial/ => generated 4393 bytes in 77 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 31983|app: 0|req: 2/4] 118.123.52.109 () {40 vars in 803 bytes} [Sat Oct 13 08:28:39 2018] GET /rango/category/bi-linjing/ => generated 4251 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 31985|app: 0|req: 2/5] 118.123.52.109 () {40 vars in 835 bytes} [Sat Oct 13 08:28:40 2018] GET /rango/category/other-frameworks/ => generated 4342 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 31983|app: 0|req: 3/6] 118.123.52.109 () {40 vars in 839 bytes} [Sat Oct 13 08:28:41 2018] GET /rango/category/django_notebook/ => generated 5186 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 31985|app: 0|req: 3/7] 118.123.52.109 () {40 vars in 806 bytes} [Sat Oct 13 08:28:44 2018] GET /accounts/login/ => generated 4147 bytes in 10 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 31983|app: 0|req: 4/8] 118.123.52.109 () {44 vars in 860 bytes} [Sat Oct 13 08:28:47 2018] POST /accounts/login/ => generated 0 bytes in 49 msecs (HTTP/1.1 302) 9 headers in 470 bytes (1 switches on core 0)
+[<Page: Official Python Tutorial>, <Page: Learn Python in 0 Minutes>, <Page: Django Rocks>, <Page: How to Tango with Django>, <Page: modelname.objects.get()/.filter()>]
+[pid: 31985|app: 0|req: 4/9] 118.123.52.109 () {40 vars in 772 bytes} [Sat Oct 13 08:28:47 2018] GET /rango/ => generated 6384 bytes in 27 msecs (HTTP/1.1 200) 4 headers in 177 bytes (1 switches on core 0)
+[pid: 31983|app: 0|req: 5/10] 118.123.52.109 () {40 vars in 815 bytes} [Sat Oct 13 08:28:50 2018] GET /rango/category/other-frameworks/ => generated 4717 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 31985|app: 0|req: 5/11] 118.123.52.109 () {40 vars in 791 bytes} [Sat Oct 13 08:28:55 2018] GET /rango/profile/sb_hx/ => generated 5284 bytes in 186 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 31983|app: 0|req: 6/12] 118.123.52.109 () {38 vars in 748 bytes} [Sat Oct 13 08:28:55 2018] GET /media/profile_images/rabbit_nG7zArW.jpg => generated 113 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 31984|app: 0|req: 1/13] 118.123.52.109 () {38 vars in 743 bytes} [Sat Oct 13 08:28:59 2018] GET /rango/profile/sb_hx/ => generated 5284 bytes in 238 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 31983|app: 0|req: 7/14] 118.123.52.109 () {38 vars in 748 bytes} [Sat Oct 13 08:29:00 2018] GET /media/profile_images/rabbit_nG7zArW.jpg => generated 113 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 31980|app: 0|req: 2/15] 118.123.52.109 () {40 vars in 809 bytes} [Sat Oct 13 08:29:41 2018] GET /rango/category/django/ => generated 4843 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 31983|app: 0|req: 8/16] 118.123.52.109 () {40 vars in 811 bytes} [Sat Oct 13 08:29:43 2018] GET /rango/category/python/ => generated 4961 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 31985|app: 0|req: 6/17] 118.123.52.109 () {40 vars in 807 bytes} [Sat Oct 13 08:29:45 2018] GET /rango/page/test_012/ => generated 4629 bytes in 16 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 31983|app: 0|req: 9/18] 118.123.52.109 () {40 vars in 875 bytes} [Sat Oct 13 08:29:52 2018] GET /media/upload_file_from_page/AirChina-VZIHLQ_HjEXJjE.pdf => generated 129 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 31980|app: 0|req: 3/19] 118.123.52.109 () {40 vars in 789 bytes} [Sat Oct 13 08:30:11 2018] GET /rango/about/ => generated 4586 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 31983|app: 0|req: 10/20] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 08:30:27 2018] GET /admin/ => generated 6703 bytes in 61 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 31985|app: 0|req: 7/22] 118.123.52.109 () {38 vars in 721 bytes} [Sat Oct 13 08:30:28 2018] GET /static/admin/css/base.css => generated 99 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 31980|app: 0|req: 4/22] 118.123.52.109 () {38 vars in 731 bytes} [Sat Oct 13 08:30:28 2018] GET /static/admin/css/dashboard.css => generated 104 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 16:51:32 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 16:51:55 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 32014)
+uwsgi socket 0 bound to TCP address 127.0.0.1:33139 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1c06430
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1c06430 pid: 32013 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 32013, cores: 1)
+spawned uWSGI worker 2 (pid: 32016, cores: 1)
+spawned uWSGI worker 3 (pid: 32017, cores: 1)
+spawned uWSGI worker 4 (pid: 32018, cores: 1)
+[<Page: Official Python Tutorial>, <Page: Learn Python in 0 Minutes>, <Page: Django Rocks>, <Page: How to Tango with Django>, <Page: modelname.objects.get()/.filter()>]
+[pid: 32013|app: 0|req: 1/1] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 08:52:04 2018] GET /rango/ => generated 6384 bytes in 83 msecs (HTTP/1.1 200) 4 headers in 177 bytes (1 switches on core 0)
+[pid: 32016|app: 0|req: 1/2] 118.123.52.109 () {40 vars in 791 bytes} [Sat Oct 13 08:52:07 2018] GET /rango/profile/sb_hx/ => generated 5284 bytes in 235 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 32017|app: 0|req: 1/3] 118.123.52.109 () {38 vars in 748 bytes} [Sat Oct 13 08:52:07 2018] GET /media/profile_images/rabbit_nG7zArW.jpg => generated 113 bytes in 45 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32016|app: 0|req: 2/4] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 08:52:11 2018] GET /admin/ => generated 6703 bytes in 39 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 32017|app: 0|req: 2/5] 118.123.52.109 () {38 vars in 721 bytes} [Sat Oct 13 08:52:11 2018] GET /static/admin/css/base.css => generated 99 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32013|app: 0|req: 2/6] 118.123.52.109 () {38 vars in 731 bytes} [Sat Oct 13 08:52:11 2018] GET /static/admin/css/dashboard.css => generated 104 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32018|app: 0|req: 1/7] 118.123.52.109 () {38 vars in 748 bytes} [Sat Oct 13 08:52:14 2018] GET /media/profile_images/rabbit_nG7zArW.jpg => generated 113 bytes in 41 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32016|app: 0|req: 3/8] 113.96.219.247 () {42 vars in 1340 bytes} [Sat Oct 13 08:54:45 2018] GET /admin/?nsukey=XeuF08JR2FSbeTWfZAoSj1OwcSoDcb90nA8Ul71B6PvTbOjHeuMSGtVbwp4xfgtpQA5hu7vJPGaeKJ00mdw4LSVHGpKO8UdYM2Hyr8t9Ah673I8edBMA9AxgSM2FEenfQAwitP8uHy2BiPU39D9jrjllgC9rCeMjwQ97HKIVJxUi2FEmqxXGk22k9E26RVHpaRittvAMLoK6PsNfDuMuOgVn3Q3D3D => generated 0 bytes in 2 msecs (HTTP/1.1 302) 7 headers in 526 bytes (1 switches on core 0)
+[pid: 32013|app: 0|req: 3/9] 61.129.8.199 () {44 vars in 1402 bytes} [Sat Oct 13 08:54:46 2018] GET /admin/login/?next=/admin/%3Fnsukey%3DXeuF08JR2FSbeTWfZAoSj1OwcSoDcb90nA8Ul71B6PvTbOjHeuMSGtVbwp4xfgtpQA5hu7vJPGaeKJ00mdw4LSVHGpKO8UdYM2Hyr8t9Ah673I8edBMA9AxgSM2FEenfQAwitP8uHy2BiPU39D9jrjllgC9rCeMjwQ97HKIVJxUi2FEmqxXGk22k9E26RVHpaRittvAMLoK6PsNfDuMuOgVn3Q3D3D => generated 2143 bytes in 63 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 32016|app: 0|req: 4/10] 61.151.178.176 () {40 vars in 1000 bytes} [Sat Oct 13 08:54:46 2018] GET /static/admin/css/login.css => generated 100 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32017|app: 0|req: 3/11] 101.226.225.59 () {40 vars in 998 bytes} [Sat Oct 13 08:54:46 2018] GET /static/admin/css/base.css => generated 99 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32018|app: 0|req: 2/12] 101.227.139.164 () {32 vars in 1103 bytes} [Sat Oct 13 08:55:45 2018] GET /admin/?nsukey=XeuF08JR%2FSbeTWfZAoSj1OwcSoDcb90nA8Ul71B6PvTbOjHeuMSGtVbwp4xfgtpQA5hu7vJPGaeKJ00mdw4LSVHGpKO8UdYM2Hyr8t9Ah673I8edBMA9AxgSM%2FEenfQAwitP8uHy%2BiPU39D9jrjllgC9rCeMjwQ97HKIVJxUi%2FEmqxXGk22k9E26RVHpaRittvAMLoK6PsNfDuMuOgVn3Q%3D%3D => generated 0 bytes in 14 msecs (HTTP/1.1 302) 7 headers in 544 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 17:00:34 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 32042)
+uwsgi socket 0 bound to TCP address 127.0.0.1:33804 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1d7d430
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1d7d430 pid: 32041 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 32041, cores: 1)
+spawned uWSGI worker 2 (pid: 32044, cores: 1)
+spawned uWSGI worker 3 (pid: 32045, cores: 1)
+spawned uWSGI worker 4 (pid: 32046, cores: 1)
+[pid: 32044|app: 0|req: 1/1] 118.123.52.109 () {38 vars in 726 bytes} [Sat Oct 13 09:00:46 2018] GET /rango/about/ => generated 4586 bytes in 71 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32045|app: 0|req: 1/2] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:00:51 2018] GET /admin/ => generated 6703 bytes in 119 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 32044|app: 0|req: 2/3] 118.123.52.109 () {38 vars in 721 bytes} [Sat Oct 13 09:00:51 2018] GET /static/admin/css/base.css => generated 99 bytes in 13 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32041|app: 0|req: 1/4] 118.123.52.109 () {38 vars in 731 bytes} [Sat Oct 13 09:00:51 2018] GET /static/admin/css/dashboard.css => generated 104 bytes in 78 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32044|app: 0|req: 3/5] 118.123.52.109 () {40 vars in 797 bytes} [Sat Oct 13 09:00:58 2018] GET /rango/profile/sb_hx/ => generated 5284 bytes in 186 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 32045|app: 0|req: 2/6] 118.123.52.109 () {38 vars in 748 bytes} [Sat Oct 13 09:00:58 2018] GET /media/profile_images/rabbit_nG7zArW.jpg => generated 113 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32041|app: 0|req: 2/7] 118.123.52.109 () {40 vars in 829 bytes} [Sat Oct 13 09:01:25 2018] GET /rango/category/other-frameworks/ => generated 4717 bytes in 35 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32044|app: 0|req: 4/8] 118.123.52.109 () {40 vars in 839 bytes} [Sat Oct 13 09:01:26 2018] GET /rango/category/django_notebook/ => generated 5561 bytes in 23 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32045|app: 0|req: 3/9] 118.123.52.109 () {40 vars in 818 bytes} [Sat Oct 13 09:01:28 2018] GET /rango/category/swift/ => generated 4657 bytes in 23 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32044|app: 0|req: 5/10] 118.123.52.109 () {40 vars in 810 bytes} [Sat Oct 13 09:01:29 2018] GET /rango/category/django/ => generated 4843 bytes in 21 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32045|app: 0|req: 4/11] 118.123.52.109 () {40 vars in 811 bytes} [Sat Oct 13 09:01:30 2018] GET /rango/category/python/ => generated 4961 bytes in 21 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32044|app: 0|req: 6/12] 118.123.52.109 () {40 vars in 807 bytes} [Sat Oct 13 09:01:31 2018] GET /rango/page/test_012/ => generated 4629 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32045|app: 0|req: 5/13] 118.123.52.109 () {40 vars in 875 bytes} [Sat Oct 13 09:01:33 2018] GET /media/upload_file_from_page/AirChina-VZIHLQ_HjEXJjE.pdf => generated 129 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 17:09:11 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 32068)
+uwsgi socket 0 bound to TCP address 127.0.0.1:35821 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1676430
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1676430 pid: 32067 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 32067, cores: 1)
+spawned uWSGI worker 2 (pid: 32070, cores: 1)
+spawned uWSGI worker 3 (pid: 32071, cores: 1)
+spawned uWSGI worker 4 (pid: 32072, cores: 1)
+[pid: 32067|app: 0|req: 1/1] 118.123.52.109 () {38 vars in 743 bytes} [Sat Oct 13 09:09:21 2018] GET /rango/page/test_012/ => generated 4629 bytes in 74 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32070|app: 0|req: 1/2] 118.123.52.109 () {40 vars in 805 bytes} [Sat Oct 13 09:09:25 2018] GET /rango/profile/sb_hx/ => generated 5284 bytes in 451 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 32071|app: 0|req: 1/3] 118.123.52.109 () {38 vars in 748 bytes} [Sat Oct 13 09:09:26 2018] GET /media/profile_images/rabbit_nG7zArW.jpg => generated 113 bytes in 61 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32070|app: 0|req: 2/4] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:09:31 2018] GET /admin/ => generated 6703 bytes in 49 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 32071|app: 0|req: 2/5] 118.123.52.109 () {38 vars in 721 bytes} [Sat Oct 13 09:09:31 2018] GET /static/admin/css/base.css => generated 99 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32067|app: 0|req: 2/6] 118.123.52.109 () {38 vars in 731 bytes} [Sat Oct 13 09:09:31 2018] GET /static/admin/css/dashboard.css => generated 104 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 17:11:59 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 32093)
+uwsgi socket 0 bound to TCP address 127.0.0.1:36898 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x26c1430
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x26c1430 pid: 32092 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 32092, cores: 1)
+spawned uWSGI worker 2 (pid: 32095, cores: 1)
+spawned uWSGI worker 3 (pid: 32096, cores: 1)
+spawned uWSGI worker 4 (pid: 32097, cores: 1)
+[pid: 32092|app: 0|req: 1/1] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:12:07 2018] GET /admin/ => generated 6703 bytes in 98 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 32096|app: 0|req: 1/2] 118.123.52.109 () {38 vars in 731 bytes} [Sat Oct 13 09:12:07 2018] GET /static/admin/css/dashboard.css => generated 104 bytes in 86 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32095|app: 0|req: 1/3] 118.123.52.109 () {38 vars in 721 bytes} [Sat Oct 13 09:12:07 2018] GET /static/admin/css/base.css => generated 99 bytes in 90 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 17:12:53 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 32106)
+uwsgi socket 0 bound to TCP address 127.0.0.1:45801 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1890430
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1890430 pid: 32105 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 32105, cores: 1)
+spawned uWSGI worker 2 (pid: 32108, cores: 1)
+spawned uWSGI worker 3 (pid: 32109, cores: 1)
+spawned uWSGI worker 4 (pid: 32110, cores: 1)
+[pid: 32105|app: 0|req: 1/1] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:12:58 2018] GET /admin/ => generated 6703 bytes in 92 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 32110|app: 0|req: 1/3] 118.123.52.109 () {38 vars in 731 bytes} [Sat Oct 13 09:12:59 2018] GET /static/admin/css/dashboard.css => generated 104 bytes in 91 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32108|app: 0|req: 1/3] 118.123.52.109 () {38 vars in 721 bytes} [Sat Oct 13 09:12:59 2018] GET /static/admin/css/base.css => generated 99 bytes in 93 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 17:16:04 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 32130)
+uwsgi socket 0 bound to TCP address 127.0.0.1:43977 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x2019430
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x2019430 pid: 32129 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 32129, cores: 1)
+spawned uWSGI worker 2 (pid: 32132, cores: 1)
+spawned uWSGI worker 3 (pid: 32133, cores: 1)
+spawned uWSGI worker 4 (pid: 32134, cores: 1)
+[pid: 32129|app: 0|req: 1/1] 118.123.52.109 () {38 vars in 743 bytes} [Sat Oct 13 09:16:32 2018] GET /rango/profile/sb_hx/ => generated 5284 bytes in 238 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 32132|app: 0|req: 1/2] 118.123.52.109 () {38 vars in 748 bytes} [Sat Oct 13 09:16:32 2018] GET /media/profile_images/rabbit_nG7zArW.jpg => generated 113 bytes in 43 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32133|app: 0|req: 1/3] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:16:36 2018] GET /admin/ => generated 6703 bytes in 94 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 32132|app: 0|req: 2/4] 118.123.52.109 () {38 vars in 721 bytes} [Sat Oct 13 09:16:36 2018] GET /static/admin/css/base.css => generated 99 bytes in 6 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32134|app: 0|req: 1/5] 118.123.52.109 () {38 vars in 731 bytes} [Sat Oct 13 09:16:36 2018] GET /static/admin/css/dashboard.css => generated 104 bytes in 42 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 17:21:39 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 32156)
+uwsgi socket 0 bound to TCP address 127.0.0.1:37815 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1ea8430
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1ea8430 pid: 32155 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 32155, cores: 1)
+spawned uWSGI worker 2 (pid: 32158, cores: 1)
+spawned uWSGI worker 3 (pid: 32159, cores: 1)
+spawned uWSGI worker 4 (pid: 32160, cores: 1)
+[pid: 32155|app: 0|req: 1/1] 118.123.52.109 () {38 vars in 714 bytes} [Sat Oct 13 09:21:47 2018] GET /admin/ => generated 6703 bytes in 92 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 32159|app: 0|req: 1/2] 118.123.52.109 () {38 vars in 720 bytes} [Sat Oct 13 09:21:48 2018] GET /static/admin/css/base.css => generated 99 bytes in 52 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32158|app: 0|req: 1/3] 118.123.52.109 () {38 vars in 730 bytes} [Sat Oct 13 09:21:48 2018] GET /static/admin/css/dashboard.css => generated 104 bytes in 47 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32159|app: 0|req: 2/4] 118.123.52.109 () {38 vars in 714 bytes} [Sat Oct 13 09:21:50 2018] GET /admin/ => generated 6703 bytes in 54 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 32158|app: 0|req: 2/5] 118.123.52.109 () {38 vars in 720 bytes} [Sat Oct 13 09:21:50 2018] GET /static/admin/css/base.css => generated 99 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32155|app: 0|req: 2/6] 118.123.52.109 () {38 vars in 730 bytes} [Sat Oct 13 09:21:50 2018] GET /static/admin/css/dashboard.css => generated 104 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[<Page: Official Python Tutorial>, <Page: Learn Python in 0 Minutes>, <Page: Django Rocks>, <Page: test_012>, <Page: How to Tango with Django>]
+[pid: 32160|app: 0|req: 1/7] 118.123.52.109 () {38 vars in 714 bytes} [Sat Oct 13 09:21:54 2018] GET /rango/ => generated 6342 bytes in 81 msecs (HTTP/1.1 200) 4 headers in 177 bytes (1 switches on core 0)
+[pid: 32159|app: 0|req: 3/8] 118.123.52.109 () {40 vars in 790 bytes} [Sat Oct 13 09:21:56 2018] GET /rango/profile/sb_hx/ => generated 5284 bytes in 227 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 32158|app: 0|req: 3/9] 118.123.52.109 () {38 vars in 747 bytes} [Sat Oct 13 09:21:57 2018] GET /media/profile_images/rabbit_nG7zArW.jpg => generated 113 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32155|app: 0|req: 3/10] 118.123.52.109 () {36 vars in 658 bytes} [Sat Oct 13 09:21:58 2018] GET /static/images/favicon.ico => generated 99 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 17:25:55 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 32177)
+uwsgi socket 0 bound to TCP address 127.0.0.1:34068 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x193b430
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x193b430 pid: 32176 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 32176, cores: 1)
+spawned uWSGI worker 2 (pid: 32179, cores: 1)
+spawned uWSGI worker 3 (pid: 32180, cores: 1)
+spawned uWSGI worker 4 (pid: 32181, cores: 1)
+[pid: 32176|app: 0|req: 1/1] 118.123.52.109 () {38 vars in 743 bytes} [Sat Oct 13 09:26:04 2018] GET /rango/profile/sb_hx/ => generated 5284 bytes in 242 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 32179|app: 0|req: 1/2] 118.123.52.109 () {38 vars in 748 bytes} [Sat Oct 13 09:26:04 2018] GET /media/profile_images/rabbit_nG7zArW.jpg => generated 113 bytes in 45 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32180|app: 0|req: 1/3] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:26:08 2018] GET /admin/ => generated 6703 bytes in 99 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 32179|app: 0|req: 2/4] 118.123.52.109 () {38 vars in 721 bytes} [Sat Oct 13 09:26:08 2018] GET /static/admin/css/base.css => generated 99 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32176|app: 0|req: 2/5] 118.123.52.109 () {38 vars in 731 bytes} [Sat Oct 13 09:26:08 2018] GET /static/admin/css/dashboard.css => generated 104 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 17:28:29 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 32194)
+uwsgi socket 0 bound to TCP address 127.0.0.1:40823 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x8f6430
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x8f6430 pid: 32193 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 32193, cores: 1)
+spawned uWSGI worker 2 (pid: 32196, cores: 1)
+spawned uWSGI worker 3 (pid: 32197, cores: 1)
+spawned uWSGI worker 4 (pid: 32198, cores: 1)
+[pid: 32193|app: 0|req: 1/1] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:28:36 2018] GET /admin/ => generated 6703 bytes in 100 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 32196|app: 0|req: 1/2] 118.123.52.109 () {38 vars in 721 bytes} [Sat Oct 13 09:28:36 2018] GET /static/admin/css/base.css => generated 99 bytes in 122 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32197|app: 0|req: 1/3] 118.123.52.109 () {38 vars in 731 bytes} [Sat Oct 13 09:28:36 2018] GET /static/admin/css/dashboard.css => generated 104 bytes in 117 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[<Page: Official Python Tutorial>, <Page: Learn Python in 0 Minutes>, <Page: Django Rocks>, <Page: test_012>, <Page: How to Tango with Django>]
+[pid: 32198|app: 0|req: 1/4] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:28:49 2018] GET /rango/ => generated 6342 bytes in 81 msecs (HTTP/1.1 200) 4 headers in 177 bytes (1 switches on core 0)
+[pid: 32196|app: 0|req: 2/5] 118.123.52.109 () {36 vars in 658 bytes} [Sat Oct 13 09:28:50 2018] GET /static/images/favicon.ico => generated 99 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32193|app: 0|req: 2/6] 118.123.52.109 () {40 vars in 795 bytes} [Sat Oct 13 09:28:52 2018] GET /rango/category/python/ => generated 4961 bytes in 26 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32196|app: 0|req: 3/7] 118.123.52.109 () {40 vars in 841 bytes} [Sat Oct 13 09:28:54 2018] GET /rango/page/learn-python-in-0-minutes/ => generated 4593 bytes in 33 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32197|app: 0|req: 2/8] 118.123.52.109 () {40 vars in 802 bytes} [Sat Oct 13 09:28:56 2018] GET /media/null => generated 84 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32193|app: 0|req: 3/9] 118.123.52.109 () {40 vars in 841 bytes} [Sat Oct 13 09:29:03 2018] GET /rango/page/learn-python-in-0-minutes/ => generated 4593 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32196|app: 0|req: 4/10] 118.123.52.109 () {40 vars in 802 bytes} [Sat Oct 13 09:29:04 2018] GET /media/null => generated 84 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32198|app: 0|req: 2/11] 118.123.52.109 () {40 vars in 807 bytes} [Sat Oct 13 09:29:21 2018] GET /rango/page/test_012/ => generated 4629 bytes in 18 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32196|app: 0|req: 5/12] 118.123.52.109 () {40 vars in 875 bytes} [Sat Oct 13 09:29:23 2018] GET /media/upload_file_from_page/AirChina-VZIHLQ_HjEXJjE.pdf => generated 129 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 17:33:06 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 32213)
+uwsgi socket 0 bound to TCP address 127.0.0.1:37266 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x25df430
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x25df430 pid: 32212 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 32212, cores: 1)
+spawned uWSGI worker 2 (pid: 32215, cores: 1)
+spawned uWSGI worker 3 (pid: 32216, cores: 1)
+spawned uWSGI worker 4 (pid: 32217, cores: 1)
+[pid: 32212|app: 0|req: 1/1] 118.123.52.109 () {38 vars in 812 bytes} [Sat Oct 13 09:33:18 2018] GET /media/upload_file_from_page/AirChina-VZIHLQ_HjEXJjE.pdf => generated 129 bytes in 56 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32215|app: 0|req: 1/2] 118.123.52.109 () {38 vars in 714 bytes} [Sat Oct 13 09:33:23 2018] GET /admin/ => generated 6703 bytes in 89 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 32212|app: 0|req: 2/3] 118.123.52.109 () {38 vars in 730 bytes} [Sat Oct 13 09:33:24 2018] GET /static/admin/css/dashboard.css => generated 104 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32217|app: 0|req: 1/4] 118.123.52.109 () {38 vars in 720 bytes} [Sat Oct 13 09:33:24 2018] GET /static/admin/css/base.css => generated 99 bytes in 45 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 17:38:39 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 32233)
+uwsgi socket 0 bound to TCP address 127.0.0.1:44765 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1a5d430
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x1a5d430 pid: 32232 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 32232, cores: 1)
+spawned uWSGI worker 2 (pid: 32235, cores: 1)
+spawned uWSGI worker 3 (pid: 32236, cores: 1)
+spawned uWSGI worker 4 (pid: 32237, cores: 1)
+[pid: 32232|app: 0|req: 1/1] 118.123.52.109 () {38 vars in 714 bytes} [Sat Oct 13 09:38:46 2018] GET /admin/ => generated 6703 bytes in 88 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 32235|app: 0|req: 1/3] 118.123.52.109 () {38 vars in 730 bytes} [Sat Oct 13 09:38:46 2018] GET /static/admin/css/dashboard.css => generated 104 bytes in 85 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32237|app: 0|req: 1/3] 118.123.52.109 () {38 vars in 720 bytes} [Sat Oct 13 09:38:46 2018] GET /static/admin/css/base.css => generated 99 bytes in 82 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 17:41:57 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 32252)
+uwsgi socket 0 bound to TCP address 127.0.0.1:36144 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x99c460
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x99c460 pid: 32251 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 32251, cores: 1)
+spawned uWSGI worker 2 (pid: 32254, cores: 1)
+spawned uWSGI worker 3 (pid: 32255, cores: 1)
+spawned uWSGI worker 4 (pid: 32256, cores: 1)
+[pid: 32254|app: 0|req: 1/1] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:42:08 2018] GET /admin/ => generated 6703 bytes in 165 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 32254|app: 0|req: 2/2] 118.123.52.109 () {38 vars in 731 bytes} [Sat Oct 13 09:42:08 2018] GET /static/admin/css/dashboard.css => generated 104 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32255|app: 0|req: 1/3] 118.123.52.109 () {38 vars in 721 bytes} [Sat Oct 13 09:42:08 2018] GET /static/admin/css/base.css => generated 99 bytes in 73 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 17:52:08 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 32357)
+uwsgi socket 0 bound to TCP address 127.0.0.1:38561 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1384460
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1384460 pid: 32356 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 32356, cores: 1)
+spawned uWSGI worker 2 (pid: 32359, cores: 1)
+spawned uWSGI worker 3 (pid: 32360, cores: 1)
+spawned uWSGI worker 4 (pid: 32361, cores: 1)
+[pid: 32359|app: 0|req: 1/1] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:52:21 2018] GET /admin/ => generated 6703 bytes in 92 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[<Page: Official Python Tutorial>, <Page: Learn Python in 0 Minutes>, <Page: test_012>, <Page: Django Rocks>, <Page: How to Tango with Django>]
+[pid: 32361|app: 0|req: 1/2] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:52:28 2018] GET /rango/ => generated 6343 bytes in 82 msecs (HTTP/1.1 200) 4 headers in 177 bytes (1 switches on core 0)
+[pid: 32359|app: 0|req: 2/3] 118.123.52.109 () {40 vars in 791 bytes} [Sat Oct 13 09:52:29 2018] GET /rango/profile/sb_hx/ => generated 5284 bytes in 183 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 32361|app: 0|req: 2/4] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:52:46 2018] GET /admin/ => generated 6703 bytes in 40 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[<Page: Official Python Tutorial>, <Page: Learn Python in 0 Minutes>, <Page: test_012>, <Page: Django Rocks>, <Page: How to Tango with Django>]
+[pid: 32359|app: 0|req: 3/5] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:53:29 2018] GET /rango/ => generated 6343 bytes in 26 msecs (HTTP/1.1 200) 4 headers in 177 bytes (1 switches on core 0)
+[pid: 32361|app: 0|req: 3/6] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:54:04 2018] GET /admin/ => generated 6703 bytes in 44 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 32359|app: 0|req: 4/7] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:54:18 2018] GET /admin/ => generated 6703 bytes in 47 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 32361|app: 0|req: 4/8] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:55:08 2018] GET /admin/ => generated 6703 bytes in 26 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[<Page: Official Python Tutorial>, <Page: Learn Python in 0 Minutes>, <Page: test_012>, <Page: Django Rocks>, <Page: How to Tango with Django>]
+[pid: 32359|app: 0|req: 5/9] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:55:10 2018] GET /rango/ => generated 6343 bytes in 22 msecs (HTTP/1.1 200) 4 headers in 177 bytes (1 switches on core 0)
+[pid: 32361|app: 0|req: 5/10] 118.123.52.109 () {40 vars in 791 bytes} [Sat Oct 13 09:55:13 2018] GET /rango/profile/sb_hx/ => generated 5284 bytes in 179 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 32359|app: 0|req: 6/11] 118.123.52.109 () {40 vars in 809 bytes} [Sat Oct 13 09:55:17 2018] GET /rango/category/python/ => generated 4961 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32361|app: 0|req: 6/12] 118.123.52.109 () {40 vars in 807 bytes} [Sat Oct 13 09:55:19 2018] GET /rango/page/test_012/ => generated 4629 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[<Page: Official Python Tutorial>, <Page: test_012>, <Page: Learn Python in 0 Minutes>, <Page: Django Rocks>, <Page: How to Tango with Django>]
+[pid: 32359|app: 0|req: 7/13] 118.123.52.109 () {40 vars in 779 bytes} [Sat Oct 13 09:55:27 2018] GET /rango/ => generated 6343 bytes in 22 msecs (HTTP/1.1 200) 4 headers in 177 bytes (1 switches on core 0)
+[pid: 32361|app: 0|req: 7/14] 118.123.52.109 () {40 vars in 789 bytes} [Sat Oct 13 09:55:39 2018] GET /rango/profile/sb_hx/ => generated 5284 bytes in 25 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 32359|app: 0|req: 8/15] 118.123.52.109 () {40 vars in 808 bytes} [Sat Oct 13 09:55:47 2018] GET /rango/category/django/ => generated 4843 bytes in 21 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32361|app: 0|req: 8/16] 118.123.52.109 () {40 vars in 828 bytes} [Sat Oct 13 09:55:48 2018] GET /rango/category/django/add_page/ => generated 5750 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 32359|app: 0|req: 9/17] 118.123.52.109 () {40 vars in 820 bytes} [Sat Oct 13 09:55:55 2018] GET /rango/category/python/ => generated 4961 bytes in 19 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32361|app: 0|req: 9/18] 118.123.52.109 () {40 vars in 807 bytes} [Sat Oct 13 09:55:57 2018] GET /rango/page/test_012/ => generated 4629 bytes in 17 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32359|app: 0|req: 10/19] 118.123.52.109 () {40 vars in 827 bytes} [Sat Oct 13 09:56:09 2018] GET /rango/category/django_notebook/ => generated 5561 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32361|app: 0|req: 10/20] 118.123.52.109 () {40 vars in 856 bytes} [Sat Oct 13 09:56:11 2018] GET /rango/category/django_notebook/add_page/ => generated 5759 bytes in 14 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 17:57:05 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 32372)
+uwsgi socket 0 bound to TCP address 127.0.0.1:34982 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x23b7460
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x23b7460 pid: 32371 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 32371, cores: 1)
+spawned uWSGI worker 2 (pid: 32374, cores: 1)
+spawned uWSGI worker 3 (pid: 32375, cores: 1)
+spawned uWSGI worker 4 (pid: 32376, cores: 1)
+[pid: 32371|app: 0|req: 1/1] 118.123.52.109 () {38 vars in 765 bytes} [Sat Oct 13 09:57:11 2018] GET /rango/category/django_notebook/ => generated 5561 bytes in 79 msecs (HTTP/1.1 200) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 32374|app: 0|req: 1/2] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 09:57:15 2018] GET /admin/ => generated 6703 bytes in 91 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 17:59:36 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.17.1 (64bit) on [Sat Oct 13 17:59:53 2018] ***
+compiled with version: 5.4.0 20160609 on 12 October 2018 09:25:51
+os: Linux-4.4.0-117-generic #141-Ubuntu SMP Tue Mar 13 11:58:07 UTC 2018
+nodename: tokyo
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /hexuanshishabi/tango_with_django_project
+detected binary path: /usr/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /hexuanshishabi/tango_with_django_project
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3824
+your memory page size is 4096 bytes
+detected max file descriptor number: 65535
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on :8000 fd 4
+spawned uWSGI http 1 (pid: 32394)
+uwsgi socket 0 bound to TCP address 127.0.0.1:40736 (port auto-assigned) fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.5.2 (default, Nov 23 2017, 16:37:01)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x20d3460
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 291616 bytes (284 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x20d3460 pid: 32393 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 32393, cores: 1)
+spawned uWSGI worker 2 (pid: 32396, cores: 1)
+spawned uWSGI worker 3 (pid: 32397, cores: 1)
+spawned uWSGI worker 4 (pid: 32398, cores: 1)
+[pid: 32393|app: 0|req: 1/1] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 10:00:02 2018] GET /admin/ => generated 6703 bytes in 96 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[pid: 32396|app: 0|req: 1/2] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 10:00:05 2018] GET /admin/ => generated 6703 bytes in 97 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[<Page: Official Python Tutorial>, <Page: test_012>, <Page: Learn Python in 0 Minutes>, <Page: Django Rocks>, <Page: How to Tango with Django>]
+[pid: 32397|app: 0|req: 1/3] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 10:00:08 2018] GET /rango/ => generated 6343 bytes in 82 msecs (HTTP/1.1 200) 4 headers in 177 bytes (1 switches on core 0)
+[pid: 32396|app: 0|req: 2/4] 118.123.52.109 () {40 vars in 791 bytes} [Sat Oct 13 10:00:10 2018] GET /rango/profile/sb_hx/ => generated 5284 bytes in 184 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 32397|app: 0|req: 2/5] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 10:03:20 2018] GET /admin/ => generated 6703 bytes in 42 msecs (HTTP/1.1 200) 6 headers in 251 bytes (1 switches on core 0)
+[<Page: Official Python Tutorial>, <Page: test_012>, <Page: Learn Python in 0 Minutes>, <Page: Django Rocks>, <Page: How to Tango with Django>]
+[pid: 32396|app: 0|req: 3/6] 118.123.52.109 () {38 vars in 715 bytes} [Sat Oct 13 10:03:29 2018] GET /rango/ => generated 6343 bytes in 30 msecs (HTTP/1.1 200) 4 headers in 177 bytes (1 switches on core 0)
+[<Page: Official Python Tutorial>, <Page: test_012>, <Page: Learn Python in 0 Minutes>, <Page: Django Rocks>, <Page: How to Tango with Django>]
+[pid: 32397|app: 0|req: 3/7] 118.123.52.109 () {38 vars in 671 bytes} [Sat Oct 13 10:03:45 2018] GET /rango/ => generated 6155 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 177 bytes (1 switches on core 0)
+[pid: 32396|app: 0|req: 4/8] 118.123.52.109 () {38 vars in 706 bytes} [Sat Oct 13 10:03:46 2018] GET /static/js/rango-jquery.js => generated 99 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32393|app: 0|req: 2/9] 118.123.52.109 () {36 vars in 658 bytes} [Sat Oct 13 10:03:46 2018] GET /static/images/favicon.ico => generated 99 bytes in 3 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 32398|app: 0|req: 1/10] 118.123.52.109 () {40 vars in 781 bytes} [Sat Oct 13 10:03:49 2018] GET /accounts/login/ => generated 4147 bytes in 57 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 0)
+[pid: 32396|app: 0|req: 5/11] 118.123.52.109 () {44 vars in 860 bytes} [Sat Oct 13 10:04:00 2018] POST /accounts/login/ => generated 0 bytes in 51 msecs (HTTP/1.1 302) 9 headers in 470 bytes (1 switches on core 0)
+[<Page: Official Python Tutorial>, <Page: test_012>, <Page: Learn Python in 0 Minutes>, <Page: Django Rocks>, <Page: How to Tango with Django>]
+[pid: 32397|app: 0|req: 4/12] 118.123.52.109 () {40 vars in 772 bytes} [Sat Oct 13 10:04:00 2018] GET /rango/ => generated 6342 bytes in 22 msecs (HTTP/1.1 200) 4 headers in 177 bytes (1 switches on core 0)
+[pid: 32396|app: 0|req: 6/13] 118.123.52.109 () {40 vars in 791 bytes} [Sat Oct 13 10:04:02 2018] GET /rango/profile/sb_hx/ => generated 5284 bytes in 42 msecs (HTTP/1.1 200) 4 headers in 224 bytes (1 switches on core 0)
+[pid: 32397|app: 0|req: 5/14] 118.123.52.109 () {38 vars in 748 bytes} [Sat Oct 13 10:04:02 2018] GET /media/profile_images/rabbit_nG7zArW.jpg => generated 113 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)

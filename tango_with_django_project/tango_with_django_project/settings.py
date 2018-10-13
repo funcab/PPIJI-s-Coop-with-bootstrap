@@ -25,9 +25,9 @@ MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 SECRET_KEY = '=hn5h+ys2bs-e)z_&t+#a29vj69@g1svs6%s3kd5sbz$*+)g4%'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['106.14.174.96', 'localhost',]
 
 
 # Application definition
@@ -166,3 +166,8 @@ REGISTRATION_AUTO_LOGIN = True
 LOGIN_REDIRECT_URL = '/rango/'
 
 LOGIN_URL = '/accounts/login/'
+
+#for Nginx, collect static file
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'collectedstatic')
+# STATIC_ROOT = STATIC_DIR

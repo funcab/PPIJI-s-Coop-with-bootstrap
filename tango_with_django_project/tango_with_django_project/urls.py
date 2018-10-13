@@ -23,6 +23,7 @@ from registration.backends.simple.views import RegistrationView
 from django.shortcuts import render
 
 
+
 class MyRegistrationView(RegistrationView):
  	def get_success_url(self, user):
  		return '/rango/register_profile'
@@ -38,4 +39,4 @@ urlpatterns = [
 	url(r'^accounts/register/$', MyRegistrationView.as_view(),name='registration_register'),
 	url(r'^accounts/password/change/done/$', PasswordChangeDone,name='password_change_done'),
 	url(r'^accounts/', include('registration.backends.simple.urls')),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]+static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
