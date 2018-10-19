@@ -1,9 +1,0 @@
-<uwsgi>
-    <!--<socket>:8000</socket>-->
-    
-    <chdir>/hexuanshishabi/tango_with_django_project</chdir>
-    <module>tango_with_django_project.wsgi</module>
-    <processes>4</processes>
-    <daemonize>uwsgi.log</daemonize>
-
-</uwsgi>
