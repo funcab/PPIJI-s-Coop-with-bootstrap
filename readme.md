@@ -1,5 +1,5 @@
-nginx and uwsgi configuration
-1. install nginx: sudo apt-get install nginx
+## nginx and uwsgi configuration
+1. install nginx: `sudo apt-get install nginx`
 2. install uwsgi: pip install uwsgi
 3. change the setting.py in django project:
   Debug = False
