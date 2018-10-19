@@ -1,0 +1,30 @@
+##nginx.conf
+##user root;
+
+upstream django {
+        server unix:///hexuanshishabi/tango_with_django_project/tango_with_django_project.sock; 
+}
+
+server {
+        listen 8000;
+        server_name localhost;
+        charset utf-8;
+        client_max_body_size 75M;
+
+
+
+        location /static/ {
+                # First attempt to serve request as file, then
+                # as directory, then fall back to displaying a 404.
+                # try_files $uri $uri/ =404;
+                alias /hexuanshishabi/tango_with_django_project/collectedstatic/;
+        }
+        location /media/ {
+                alias /hexuanshishabi/tango_with_django_project/media/;
+        }
+        location / {
+                uwsgi_pass  django;
+                include     /etc/nginx/uwsgi_params; # the uwsgi_params file you installed
+        }              
+
+}
