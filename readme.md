@@ -38,8 +38,8 @@ workon rango
 ## after updating ubuntu and Python...
 1. 将默认python版本改为python3
 ```
-echo alias python=python3 >> ~/.bashrc
-source ~/.bashrc
+$ echo alias python=python3 >> ~/.bashrc
+$ source ~/.bashrc
 ```
 2. 检查新版本的python路径是否加入PYTHONPATH:
  ```
