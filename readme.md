@@ -1,8 +1,6 @@
 ## virtualenv and django configuration
 1. install virtualenv：
 ```
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
-python3 get-pip.py --force-reinstall
 pip3 install virtualenv
 pip3 install virtualenvwrapper
 ```
@@ -37,8 +35,13 @@ workon rango
 3. start nginx & after changing the nginx.conf make sure you restart nginx: `sudo /etc/init.d/nginx restart`
 4. start uwsgi:`uwsgi --ini mysite.ini`
 5. run: `tail -f uwsgi.log`
-## After updating ubuntu and Python...
-1. 检查新版本的python路径是否加入PYTHONPATH:
+## after updating ubuntu and Python...
+1. 将默认python版本改为python3
+```
+echo alias python=python3 >> ~/.bashrc
+source ~/.bashrc
+```
+2. 检查新版本的python路径是否加入PYTHONPATH:
  ```
  $ echo $PYTHONPATH
  ```
@@ -62,18 +65,23 @@ Type "help", "copyright", "credits" or "license" for more information.
   ```
   export PYTHONPATH=$PYTHONPATH:<PATH_TO_SITE-PACKAGES>  
   ```
-2. 重装pillow
-3. 重新安装virtualenv，见开头
-4. 重启virtualenv，见开头（重建rango除外）
-5. 重装Django，nginx，uwsgi
-6. 重装web应用里用到的包：
+3. 重装pip3:
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py --force-reinstall
+```
+4. 重装pillow
+5. 重装virtualenv，见开头
+6. 重启virtualenv，见开头（重建rango除外）
+7. 重装Django，nginx，uwsgi
+8. 重装web应用里用到的包：
 ```
   $ pip3 install pymysql  
   $ pip3 install -U django-registration-redux==1.4   
   $ pip3 install django-bootstrap-toolkit  
  ```
-7. 防止还有遗漏的包，先进入虚拟环境，在无uwsgi和nginx的环境下在项目根目录下运行：  
+9. 防止还有遗漏的包，先进入虚拟环境，在无uwsgi和nginx的环境下在项目根目录下运行：  
   ```
   $ python3 manage.py runserver 0.0.0.0:8000
   ```
-8. 无误后，进入虚拟环境，启动uwsgi和nginx。
+10. 无误后，进入虚拟环境，启动uwsgi和nginx
