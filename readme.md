@@ -65,6 +65,7 @@ Type "help", "copyright", "credits" or "license" for more information.
   ```
   export PYTHONPATH=$PYTHONPATH:<PATH_TO_SITE-PACKAGES>  
   ```
+  - 保存文件后，关闭当前终端窗口，再重新打开一个
 3. 重装pip3:
 ```
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
