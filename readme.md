@@ -12,8 +12,13 @@ workon rango
 ```
 2.5 fix error (after source virtualenvwrapper.sh) : Python could not import the module virtualenvwrapper.hook_loade:
 ```
-export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
-source ~/.bashrc
+
+whereis virtualenvwrapper.sh
+cd <virtualenvwrapper.sh_path>
+vi virtualenvwrapper.sh
+```
+2.5.1 find VIRTUALENVWRAPPER_PYTHON= , change it into VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3.
+```
 source virtualenvwrapper.sh
 ```
 3. install django:`pip3 install -U django==1.9.10` 
